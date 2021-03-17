@@ -57,7 +57,7 @@ public class BookMyShowClass {
 			driver = new FirefoxDriver();
 		}else if (browserdriver.equalsIgnoreCase("Chrome")){
 			System.setProperty("webdriver.chrome.driver",
-			"\\C:\\Users\\Admin\\Documents\\BookMyShow\\BookMyShow\\Documentation\\chromedriver.exe");
+			"C:\\chrom\\chromedriver.exe");
 			driver = new ChromeDriver();
 		} else {
 			System.out.println("Not a valid browser");
